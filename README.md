@@ -29,6 +29,7 @@ By using this software you acknowledge that you understand and accept all legal 
 1. Prepare a controlled test environment — e.g., a local VM, intentionally vulnerable lab machine, or a service you own.
 2. Use only test accounts and never real user credentials.
 3. Configure the wordlist and options in the configuration file or via CLI (see comments in the scripts).
+4. For WiFi testing: Use only on your own network with explicit permission. Brute-force attempts may disrupt connectivity or trigger security measures. Test with short passwords only for feasibility.
 
 
 
