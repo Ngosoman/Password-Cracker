@@ -11,3 +11,5 @@ for val in range(5):
     guess = guess + a
     if password in guess:
         break
+end = time.time()
+clock = str(end - start)
