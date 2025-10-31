@@ -13,3 +13,6 @@ for val in range(5):
         break
 end = time.time()
 clock = str(end - start)
+
+print("Your password: " + password )
+print("Time taken : " + clock )
