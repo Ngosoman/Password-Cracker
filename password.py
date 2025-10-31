@@ -9,3 +9,5 @@ for val in range(5):
     for y in range(val):
         a = [x + i for x in a for i in chars]
     guess = guess + a
+    if password in guess:
+        break
