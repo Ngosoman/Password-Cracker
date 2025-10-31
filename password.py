@@ -7,3 +7,5 @@ guess = []
 for val in range(5):
     a = [i for i in chars]
     for y in range(val):
+        a = [x + i for x in a for i in chars]
+    guess = guess + a
